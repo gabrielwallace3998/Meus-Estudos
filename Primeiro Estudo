@@ -1,0 +1,24 @@
+# Simulador de fazer café
+# -*- coding: utf-8 -*-
+
+def ferver_agua():
+	print("Fervendo a água...")
+
+def adicionar_cafe():
+	print("Adicionando o pó de café...")
+
+def coar_cafe():
+	print("Coando o café...")
+
+def servir_cafe():
+	print("Servindo o café na xícara!")
+
+def fazer_cafe():
+	ferver_agua()
+	adicionar_cafe()
+	coar_cafe()
+	servir_cafe()
+	print("Café pronto! Aproveite!")
+
+if __name__ == "__main__":
+	fazer_cafe()
